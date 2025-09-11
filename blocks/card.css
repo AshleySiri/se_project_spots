@@ -3,6 +3,7 @@
   width: 100%;
   object-fit: cover;
   display: block;
+  border-radius: 20px;
 }
 
 .card__title {
@@ -15,6 +16,9 @@
   color: rgba(33, 33, 33, 1);
   width: 190px;
   height: 24px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .card__content {
@@ -30,6 +34,10 @@
   border: none;
   background-color: transparent;
   opacity: 40%;
+}
+.card__like-button {
+  opacity: 1;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 627px) {
