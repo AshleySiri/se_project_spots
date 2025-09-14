@@ -2,7 +2,7 @@
 
 ### Overview
 
-https://docs.google.com/document/d/1LlSkfXaYA4Y4eSTI1xEbswcqbPeRqUCtL6AUQCgZgio/edit?usp=sharing
+https://drive.google.com/file/d/1tUFfYOLeeWyIj8jGM62shNoFaxA3s16V/view?usp=drive_link
 
 - Intro
 - Figma
