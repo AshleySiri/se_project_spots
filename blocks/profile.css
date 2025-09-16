@@ -124,3 +124,41 @@
     width: 100%;
   }
 }
+
+@media (max-width: 630px) {
+  .profile {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 0 16px;
+    text-align: center;
+  }
+
+  .profile__left {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .profile__avatar {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+  }
+
+  .profile__container {
+    margin: 0;
+  }
+
+  .profile__edit-btn,
+  .profile__add-btn {
+    width: 100%;
+    max-width: 220px;
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .profile__add-btn {
+    align-self: center;
+  }
+}
