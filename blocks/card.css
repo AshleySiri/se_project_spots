@@ -9,10 +9,10 @@
 .card__title {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
-  font-style: normal;
-  font-size: 20px;
-  line-height: 120%;
-  letter-spacing: 0;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
   color: rgba(33, 33, 33, 1);
   width: 190px;
   height: 24px;
