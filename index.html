@@ -113,6 +113,60 @@
       <footer class="footer">
         <p class="footer__text">2023 @ Spots</p>
       </footer>
+      <div class="modal">
+        <div class="modal__container">
+          <button type="button" class="modal__close-btn">X</button>
+          <h2 class="modal__title">Edit profile</h2>
+          <form action="" class="modal__form">
+            <label for="profile-name-input" class="modal__label">
+              Name
+              <input
+                id="profile-name-input"
+                type="text"
+                class="modal__input"
+                placeholder="Type your name"
+              />
+            </label>
+            <label for="profile-description-input" class="modal__label">
+              Description
+              <input
+                id="profile-description-input"
+                type="text"
+                class="modal__input"
+                placeholder="Describe yourself"
+              />
+            </label>
+            <button type="submit" class="modal__submit-btn">Save</button>
+          </form>
+        </div>
+      </div>
+      <div class="modal modal_is-opened">
+        <div class="modal__container">
+          <button type="button" class="modal__close-btn">X</button>
+          <h2 class="modal__title">New post</h2>
+          <form action="" class="modal__form">
+            <label for="profile-image-input" class="modal__label">
+              Name
+              <input
+                id="card-image-input"
+                type="url"
+                class="modal__input"
+                placeholder="Place a link to the picture"
+              />
+            </label>
+            <label for="profile-description-input" class="modal__label">
+              Description
+              <input
+                id="profile-description-input"
+                type="text"
+                class="modal__input"
+                placeholder="Describe yourself"
+              />
+            </label>
+            <button type="submit" class="modal__submit-btn">Save</button>
+          </form>
+        </div>
+      </div>
     </div>
   </body>
 </html>
