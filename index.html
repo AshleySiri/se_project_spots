@@ -63,6 +63,7 @@
                 <button type="button" class="card__like-button"></button>
               </div>
             </li>
+
             <li class="card">
               <img
                 src="./images/3-photo-by-tubanur-dogan-from-pexels.jpg"
@@ -117,7 +118,7 @@
         <div class="modal__container">
           <button type="button" class="modal__close-btn">X</button>
           <h2 class="modal__title">Edit profile</h2>
-          <form action="" class="modal__form">
+          <form class="modal__form">
             <label for="profile-name-input" class="modal__label">
               Name
               <input
@@ -144,9 +145,9 @@
         <div class="modal__container">
           <button type="button" class="modal__close-btn">X</button>
           <h2 class="modal__title">New post</h2>
-          <form action="" class="modal__form">
-            <label for="profile-image-input" class="modal__label">
-              Name
+          <form class="modal__form">
+            <label for="card-image-input" class="modal__label">
+              Image URL
               <input
                 id="card-image-input"
                 type="url"
@@ -154,13 +155,13 @@
                 placeholder="Place a link to the picture"
               />
             </label>
-            <label for="profile-description-input" class="modal__label">
+            <label for="card-description-input" class="modal__label">
               Description
               <input
-                id="profile-description-input"
+                id="card-description-input"
                 type="text"
                 class="modal__input"
-                placeholder="Describe yourself"
+                placeholder="Type your caption"
               />
             </label>
             <button type="submit" class="modal__submit-btn">Save</button>
