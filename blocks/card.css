@@ -9,6 +9,7 @@
   object-fit: cover;
   display: block;
   border-radius: 8px;
+  cursor: pointer;
 }
 
 .card__title {
@@ -31,7 +32,7 @@
   justify-content: space-between;
 }
 
-.card_delete-button {
+.card__delete-button {
   background-image: url(../images/deletebutton.svg);
   background-repeat: no-repeat;
   background-position: center;
