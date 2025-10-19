@@ -55,17 +55,17 @@
   cursor: pointer;
 }
 
-.card_like-button:hover {
+.card__like-button:hover {
   opacity: 1;
+}
 
-  .card__like-button_active {
-    background-image: url(../images/likebutton);
-    opacity: 1;
-  }
+.card__like-button_active {
+  background-image: url(../images/likebutton.svg);
+  opacity: 1;
+}
 
-  .card__like-button_active:hover {
-    opacity: 0.4;
-  }
+.card__like-button_active:hover {
+  opacity: 0.4;
 }
 
 @media screen and (max-width: 627px) {
