@@ -33,3 +33,4 @@ trim_trailing_whitespace = false
 # Possible values - true, false
 insert_final_newline = true
 
+ 

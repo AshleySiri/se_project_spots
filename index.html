@@ -13,8 +13,9 @@
   <body>
     <div class="page">
       <header class="header">
-        <img src="./images/logo.svg" alt="Spot logo" class="header__logo" />
+        <img src="./images/logo.svg" alt="Spots logo" class="header__logo" />
       </header>
+
       <main class="content">
         <section class="profile page__section">
           <div class="profile__left">
@@ -29,40 +30,37 @@
                 <p class="profile__description">Civil Aviator</p>
               </div>
               <button type="button" class="profile__edit-btn">
-                <img src="./images/pencil.svg.svg" alt="Pencil *Icon" /> Edit
-                Profile
+                <img src="./images/pencil.svg" alt="Pencil icon" />
+                Edit Profile
               </button>
             </div>
           </div>
-          <button class="profile__add-btn">
-            <img src="./images/plus.svg.svg" alt="Plus icon" />
+          <button class="profile__add-btn" type="button">
+            <img src="./images/plus.svg" alt="Plus icon" />
             New Post
           </button>
         </section>
+
         <section class="cards page__section">
           <ul class="cards__list">
             <template id="card-template">
               <li class="card">
+                <button class="card__delete-button" type="button"></button>
                 <img src="" alt="" class="card__image" />
                 <div class="card__content">
                   <h2 class="card__title"></h2>
-                  <button type="button" class="card__like-button"></button>
-                </div>
-              </li>
-              <li class="card">
-                <img src=" alt=" # class="card__image" />
-                <div class="card__content">
-                  <h2 class="card__title"></h2>
-                  <button type="button" class="card__like-button"></button>
+                  <button class="card__like-button" type="button"></button>
                 </div>
               </li>
             </template>
           </ul>
         </section>
       </main>
+
       <footer class="footer">
         <p class="footer__text">2023 @ Spots</p>
       </footer>
+
       <div class="modal" id="edit-profile-modal">
         <div class="modal__container">
           <button type="button" class="modal__close-btn">X</button>
@@ -90,6 +88,7 @@
           </form>
         </div>
       </div>
+
       <div class="modal" id="new-post-modal">
         <div class="modal__container">
           <button type="button" class="modal__close-btn">X</button>
@@ -118,6 +117,21 @@
         </div>
       </div>
     </div>
+
+    <div class="modal modal_type_preview" id="preview-modal">
+      <div class="modal__image-container">
+        <button aria-label="Close modal" class="modal__close-btn" type="button">
+          X
+        </button>
+        <img
+          src="https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/spots/7-photo-by-griffin-wooldridge-from-pexels.jpg"
+          alt="Golden Gate Bridge"
+          class="modal__image"
+        />
+        <p class="modal__caption">Golden Gate Bridge</p>
+      </div>
+    </div>
+
     <script src="./scripts/index.js"></script>
   </body>
 </html>
