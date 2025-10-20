@@ -31,10 +31,10 @@
   border-radius: 8px;
   background-color: #fff;
   padding: 32px 50px;
-  position: relative;0
+  position: relative;
 }
 
-.modal__image-container{
+.modal__image-container {
   position: relative;
 }
 
@@ -52,13 +52,11 @@
   line-height: 40px;
   text-align: center;
   padding: 0;
-  background-image: images\closebutton.svg;
 }
 
 .modal__close-btn_type_preview {
   top: 0;
   right: -52.5px;
-
 }
 
 .modal__title {
@@ -122,7 +120,7 @@
   line-height: 100%;
   white-space: nowrap;
   margin-top: 8px;
-  background-color: #212121 ;
+  background-color: #212121;
   width: fit-content;
   padding: ADD PADDING;
 }
