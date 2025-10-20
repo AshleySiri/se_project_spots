@@ -25,11 +25,16 @@
 }
 
 .modal__container {
+  box-sizing: border-box;
   max-width: 730px;
   width: 100%;
   border-radius: 8px;
   background-color: #fff;
   padding: 32px 50px;
+  position: relative;0
+}
+
+.modal__image-container{
   position: relative;
 }
 
@@ -47,11 +52,13 @@
   line-height: 40px;
   text-align: center;
   padding: 0;
+  background-image: images\closebutton.svg;
 }
 
-.modal__close_type_preview {
+.modal__close-btn_type_preview {
   top: 0;
   right: -52.5px;
+
 }
 
 .modal__title {
@@ -73,6 +80,7 @@
 }
 
 .modal__input {
+  box-sizing: border-box;
   display: block;
   margin: 8px 0 0;
   width: 100%;
@@ -114,18 +122,21 @@
   line-height: 100%;
   white-space: nowrap;
   margin-top: 8px;
+  background-color: #212121 ;
+  width: fit-content;
+  padding: ADD PADDING;
 }
 
-@media screen and (max-width: 627px) {
+@media screen and (max-width: 320px) {
   .modal__close_type_preview {
-    top: -48px;
-    right: 0;
+    top: 89px;
+    left: 16px;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 320px) {
   .modal__close_type_preview {
-    top: -48px;
-    right: 0;
+    top: 206px;
+    left: 16px;
   }
 }
