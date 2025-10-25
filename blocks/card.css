@@ -13,14 +13,14 @@
 }
 
 .card__title {
+  margin: 0;
+  max-width: 350px;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 20px;
   font-style: normal;
   line-height: 100%;
   color: rgba(33, 33, 33, 1);
-  width: 190px;
-  height: 24px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -30,6 +30,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 12px;
 }
 
 .card__delete-button {
@@ -44,6 +45,12 @@
   cursor: pointer;
   border: none;
   background-color: transparent;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.card__delete-button:hover {
+  background-color: #ff7676;
 }
 
 .card__like-button {
@@ -73,5 +80,9 @@
 @media screen and (max-width: 627px) {
   .card__image {
     height: 288px;
+  }
+  .card__title {
+    max-width: 250px;
+    font-size: 16px;
   }
 }

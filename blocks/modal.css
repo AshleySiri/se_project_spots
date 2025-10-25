@@ -129,9 +129,8 @@
 }
 
 .modal__submit-btn:hover {
-  background-color: #3a3a3a;
+  opacity: 0.8;
   cursor: pointer;
-  transform: translateY(-1px);
 }
 
 .modal__image {
@@ -157,6 +156,10 @@
 }
 
 @media screen and (max-width: 480px) {
+  .modal__title {
+    font-size: 20px;
+  }
+
   .modal__close-btn_type_preview {
     right: -23.5px;
   }
@@ -172,7 +175,7 @@
     max-width: none;
   }
   .modal__close-btn {
-    top: 22px;
+    top: 12px;
     right: 12px;
   }
   .modal__image {
