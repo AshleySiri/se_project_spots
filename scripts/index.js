@@ -49,7 +49,7 @@ const nameInput = newPostModal.querySelector("#card-description-input");
 const cardDescriptionInput = newPostModal.querySelector(
   "#card-description-input"
 );
-TODO;
+
 const linkInput = newPostModal.querySelector("#card-image-input");
 
 const previewModal = document.querySelector("#preview-modal");
