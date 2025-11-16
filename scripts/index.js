@@ -46,14 +46,16 @@ const newPostCloseBtn = newPostModal.querySelector(".modal__close-btn");
 const addCardFormElement = newPostModal.querySelector(".modal__form");
 const cardSubmitBtn = newPostModal.querySelector(".modal__submit-btn");
 const nameInput = newPostModal.querySelector("#card-description-input");
+const cardDescriptionInput = newPostModal.querySelector(
+  "#card-description-input"
+);
+TODO;
 const linkInput = newPostModal.querySelector("#card-image-input");
 
 const previewModal = document.querySelector("#preview-modal");
 const previewImage = previewModal.querySelector(".modal__image");
 const previewCaption = previewModal.querySelector(".modal__caption");
-const previewCloseBtn =
-  previewModal.querySelector(".modal__close") ||
-  previewModal.querySelector(".modal__close-btn");
+const previewCloseBtn = previewModal.querySelector(".modal__close-btn");
 
 const cardTemplate = document
   .querySelector("#card-template")
@@ -75,6 +77,11 @@ function handleEscClose(evt) {
 function openModal(modal) {
   modal.classList.add("modal_is-opened");
   document.addEventListener("keydown", handleEscClose);
+  modal.addEventListener("click", (event) => {
+    if (event.target.classList.contains("modal_is-opened")) {
+      closeModal(modal);
+    }
+  });
 }
 
 function closeModal(modal) {
