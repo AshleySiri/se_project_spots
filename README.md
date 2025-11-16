@@ -25,9 +25,12 @@ Collaborate cross-functionally to improve process efficiency and data accuracy.
 
 Bridge the gap between technical systems and business strategy.
 
-# Project 3: Spots
+## Project Pitch Videos
 
-### Overview
+Check out these videos, where I describe my project
+and some challenges I faced while building it:
+
+https://docs.google.com/document/d/1mYWJhrEYnuDs7c7UJzqsRzP4M7-nTt_nk7jp1xS3mVc/edit?usp=sharing
 
 https://ashleysiri.github.io/se_project_spots
 
@@ -38,5 +41,4 @@ https://drive.google.com/file/d/1tUFfYOLeeWyIj8jGM62shNoFaxA3s16V/view?usp=drive
 - Images
   **Intro**
 
-This project is made so all the elements are displayed correctly on popular screen sizes. 
-
+This project is made so all the elements are displayed correctly on popular screen sizes.

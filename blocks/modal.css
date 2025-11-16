@@ -60,6 +60,18 @@
   opacity: 0.4;
 }
 
+.modal__submit-btn_disabled {
+  background-color: #ffffff;
+  color: #212121;
+  border: 1px solid rgba(33, 33, 33, 0.4);
+  opacity: 0.5;
+  cursor: default;
+}
+
+.modal__error_visible {
+  color: red;
+}
+
 .modal__close-btn:hover {
   opacity: 1;
 }
@@ -91,6 +103,8 @@
 
 .modal__label {
   margin: 0 0 32px;
+  margin-bottom: 32px;
+  display: block;
 }
 
 .modal__input {
@@ -107,6 +121,17 @@
 
 .modal__input:hover {
   border-color: rgba(33, 33, 33, 0.7);
+}
+
+.modal__input_type_error {
+  border: 1px solid rgba(255, 0, 0, 0.6);
+}
+
+.modal__error {
+  display: block;
+  margin-top: 8px;
+  /*  TODO-USE CORRECT COLOR AND FONT SIZES*/
+  color: red;
 }
 
 .modal__input::placeholder {
