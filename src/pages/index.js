@@ -1,3 +1,11 @@
+import "./index.css";
+import {
+  enableValidation,
+  validationConfig,
+  resetValidation,
+  disableButton
+} from "../scripts/validation.js";
+
 const initialCards = [
   {
     name: "Golden Gate Bridge",
@@ -46,9 +54,6 @@ const newPostCloseBtn = newPostModal.querySelector(".modal__close-btn");
 const addCardFormElement = newPostModal.querySelector(".modal__form");
 const cardSubmitBtn = newPostModal.querySelector(".modal__submit-btn");
 const nameInput = newPostModal.querySelector("#card-description-input");
-const cardDescriptionInput = newPostModal.querySelector(
-  "#card-description-input"
-);
 
 const linkInput = newPostModal.querySelector("#card-image-input");
 
@@ -122,11 +127,7 @@ editProfileBtn.addEventListener("click", function () {
   editProfileNameInput.value = profileNameEl.textContent;
   editProfileDescriptionInput.value = profileDescriptionEl.textContent;
 
-  resetValidation(
-    editProfileForm,
-    [editProfileNameInput, editProfileDescriptionInput],
-    settings
-  );
+ resetValidation(editProfileForm, validationConfig);
 
   openModal(editProfileModal);
 });
@@ -136,7 +137,8 @@ editProfileCloseBtn.addEventListener("click", function () {
 });
 
 newPostBtn.addEventListener("click", function () {
-  resetValidation(newPostModal, [nameInput, linkInput], settings);
+  resetValidation(addCardFormElement, validationConfig);
+
   openModal(newPostModal);
 });
 
@@ -171,7 +173,7 @@ function handleAddCardSubmit(evt) {
 
   addCardFormElement.reset();
 
-  disableButton(cardSubmitBtn, settings);
+  disableButton(cardSubmitBtn, validationConfig);
 
   closeModal(newPostModal);
 }
@@ -182,3 +184,5 @@ initialCards.forEach((item) => {
   const cardElement = getCardElement(item);
   cardsList.append(cardElement);
 });
+
+enableValidation(validationConfig);
