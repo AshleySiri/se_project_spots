@@ -30,6 +30,9 @@ Bridge the gap between technical systems and business strategy.
 Check out these videos, where I describe my project
 and some challenges I faced while building it:
 
+Jan 12, 2026:
+https://docs.google.com/document/d/1iiYKQgqz-iEL3hUpV3HmNUPOHZmK9sfrGE7ailLRS34/edit?usp=sharing
+
 https://docs.google.com/document/d/1mYWJhrEYnuDs7c7UJzqsRzP4M7-nTt_nk7jp1xS3mVc/edit?usp=drive_link
 
 https://ashleysiri.github.io/se_project_spots
@@ -42,3 +45,4 @@ https://drive.google.com/file/d/1tUFfYOLeeWyIj8jGM62shNoFaxA3s16V/view?usp=drive
   **Intro**
 
 This project is made so all the elements are displayed correctly on popular screen sizes.
+
