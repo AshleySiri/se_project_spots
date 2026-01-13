@@ -1,38 +1,48 @@
-# Spots Photo App Landing Page
+👋 Hi, I’m Ashley Sirianni
+Operations Administrator | Software Engineer in Training | Process Optimizer
 
-A responsive marketing site for a fictional photo-sharing app called **Spots**.  
-Built as part of TripleTen’s Software Engineering Program.
+💡 About Me
 
-## 🎯 Features
+I’m a detail-oriented Operations Administrator with over eight years of experience managing vendor platforms, CRM systems, and high-volume operational workflows within the financial services industry. I excel at identifying inefficiencies, implementing structured solutions, and building clear, scalable processes through both operational systems and code.
 
-- Fully responsive design (mobile → desktop)
-- Card grid showcasing user “spots” with images and text
-- Image modal pop-ups
-- Client-side form validation
-- Reusable components and clean BEM structure
-- Semantic HTML with accessible markup
+Currently pursuing my Software Engineering Degree through TripleTen, I’m developing strong technical expertise in:
 
-## 🛠 Tech Stack
+🖥️ Front-End Development:
+HTML5, CSS3, Flexbox, Grid, BEM, Media Queries, Transitions, JavaScript, JSX
 
-- HTML5  
-- CSS3 (Flexbox, Grid, BEM)  
-- JavaScript (DOM manipulation, modals, validation)
+⚙️ Core Tools & Libraries:
+Git, GitHub, Webpack, NPM, React, React Components, Form Validation, OOP, DOM Manipulation, Debugging, Figma
 
-## 🔗 Live Demo
+🚀 What I Do Best:
 
-https://ashleysiri.github.io/se_project_spots/
+Develop clean, responsive, and semantic front-end code.
 
-## 📁 Project Structure
+Translate complex operations into automated workflows.
 
-- `index.html` – main page
-- `blocks/` – BEM component folders
-- `images/` – project images
-- `scripts/` – JS logic for modals & validation
-- `pages/` – compiled CSS
+Create standard operating procedures (SOPs) that scale across teams.
 
-## 🧠 What I Focused On
+Collaborate cross-functionally to improve process efficiency and data accuracy.
 
-- Clean, readable code
-- Responsive layouts at all breakpoints
-- Modular BEM file architecture
-- User interaction (modals + validation)
+Bridge the gap between technical systems and business strategy.
+
+## Project Pitch Videos
+
+Check out these videos, where I describe my project
+and some challenges I faced while building it:
+
+Jan 12, 2026:
+https://docs.google.com/document/d/1iiYKQgqz-iEL3hUpV3HmNUPOHZmK9sfrGE7ailLRS34/edit?usp=sharing
+
+https://docs.google.com/document/d/1mYWJhrEYnuDs7c7UJzqsRzP4M7-nTt_nk7jp1xS3mVc/edit?usp=drive_link
+
+https://ashleysiri.github.io/se_project_spots
+
+https://drive.google.com/file/d/1tUFfYOLeeWyIj8jGM62shNoFaxA3s16V/view?usp=drive_link
+
+- Intro
+- Figma
+- Images
+  **Intro**
+
+This project is made so all the elements are displayed correctly on popular screen sizes.
+
